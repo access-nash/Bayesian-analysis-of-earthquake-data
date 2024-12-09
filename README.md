@@ -1,1 +1,4 @@
 # Bayesian-analysis-of-earthquake-data
+
+Executive Summary
+This report investigates the modeling of earthquake magnitudes using autoregressive (AR) and mixture autoregressive (Mixture AR) models. The objective is to assess the performance of these models for time series forecasting and compare their goodness of fit. We fit an AR(3) model and a Mixture AR(3) model with two components to the data, using a Gibbs sampler for Bayesian estimation of parameters. Model comparison is conducted using the Akaike Information Criterion (AIC), Bayesian Information Criterion (BIC), and Deviance Information Criterion (DIC). Based on the results, the AR(3) model demonstrates a significantly better fit in terms of AIC and BIC, while the Mixture AR model shows poorer performance, suggesting the AR(3) model is preferable for this dataset.
